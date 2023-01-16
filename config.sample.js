@@ -18,7 +18,7 @@ module.exports = {
   /*
     If true, users will be able to create accounts and access their uploaded files.
   */
-  enableUserAccounts: true,
+  enableUserAccounts: false,
 
   /*
     Here you can decide if you want lolisafe to serve the files or if you prefer doing so via nginx.
@@ -33,7 +33,7 @@ module.exports = {
     Both cases require you to type the domain where the files will be served on the `domain` key below.
     Which one you use is ultimately up to you.
   */
-  serveFilesWithNode: false,
+  serveFilesWithNode: true,
   domain: null,
 
   /*
@@ -80,7 +80,7 @@ module.exports = {
   /*
     Port on which to run the server.
   */
-  port: 9999,
+  port: 8008,
 
   /*
     Pages to process for the frontend.
@@ -426,23 +426,20 @@ module.exports = {
         You may remove all the groups below to apply the defaults above for everyone.
       */
       user: [
-        24 * 7, // 168 hours (7 days) -- group's default
+        0, // permanent -- group's default
+        1, // 1 hour
+        12, // 12 hours
+        24 * 1, // 24 hours (1 day)
         24 * 2, // 48 hours (2 days)
         24 * 3, // 72 hours (3 days)
-        24 * 4, // 96 hours (4 days)
-        24 * 5, // 120 hours (5 days)
-        24 * 6 // 144 hours (6 days)
+        24 * 7 // 168 hours (7 days)
       ],
       vip: [
-        24 * 30, // 720 hours (30 days) -- group's default
-        24 * 14, // 336 hours (14 days)
-        24 * 21, // 504 hours (21 days)
-        24 * 91 // 2184 hours (91 days)
+        0 // 720 hours (30 days) -- group's default
       ],
       vvip: [
         null, // -- if null, use previous group's default as this group's default
-        0, // permanent
-        24 * 183 // 4392 hours (183 days)
+        0 // permanent
       ],
       moderator: [
         0 // -- group's default
@@ -544,8 +541,8 @@ module.exports = {
     */
     fileIdentifierLength: {
       min: 4,
-      max: 32,
-      default: 8,
+      max: 12,
+      default: 6,
       force: false
     },
 
@@ -618,7 +615,7 @@ module.exports = {
       home uploader's Config tab, as the former would only grey out the option.
     */
     stripTags: {
-      default: false,
+      default: true,
       video: false,
       force: false,
       // Supporting the extensions below requires using custom globally-installed libvips.
