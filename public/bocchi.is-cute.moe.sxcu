@@ -1,9 +1,9 @@
 {
   "Version": "13.4.0",
-  "Name": "bocchi.is-cute.moe",
+  "Name": "hitori.is-cute.moe",
   "DestinationType": "ImageUploader, FileUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://bocchi.is-cute.moe/api/upload",
+  "RequestURL": "https://hitori.is-cute.moe/api/upload",
   "Headers": {
     "token": "",
     "albumid": "",

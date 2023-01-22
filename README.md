@@ -1,10 +1,15 @@
 # lolisafe, a small safe worth protecting
 
-[![safe.fiery.me](https://i.fiery.me/upN1Q.png)](https://safe.fiery.me)
+[![safe.fiery.me](https://hitori.is-cute.moe/k1XSTu.png)](https://hitori.is-cute.moe/)
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/WeebDev/lolisafe/master/LICENSE)
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+
+> **Note**  
+> This is a modified, self-hosted fork of [lolisafe](https://github.com/BobbyWibowo/lolisafe) meant for private usage, which can be found running on [my website here](https://hitori.is-cute.moe/).
+>
+> **I do not provide support for lolisafe as I'm not the developer.** Please direct all issues to the official repository.
 
 ## Features
 
