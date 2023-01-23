@@ -1,6 +1,6 @@
 # lolisafe
 
-A (cute) self-hosted fork of lolisafe, a file uploader written in Node.
+A (cute) self-hosted fork of [lolisafe](https://github.com/BobbyWibowo/lolisafe), a fast file uploader written in Node.
 
 > **Note**  
 > This branch is a copy of the [source repository](https://github.com/BobbyWibowo/lolisafe) for lolisafe, used for development of other branches.
