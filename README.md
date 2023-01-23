@@ -7,7 +7,7 @@ A (cute) self-hosted fork of lolisafe, a file uploader written in Node.
 >
 > Production instances of [is-cute](https://github.com/is-cute) do not use this repository. See [Instances](#instances) for a list of sites and their branches.
 
-## Instances
+## 🔗 Instances
 > **Warning**  
 > The branches below are intended to be used for [is-cute](https://github.com/is-cute). *You will need to make modifications for personal use.*
 
@@ -15,5 +15,5 @@ A (cute) self-hosted fork of lolisafe, a file uploader written in Node.
 | :---------------------------------------------------------- | :------------------------- | :----- |
 | [`bocchi`](https://github.com/is-cute/lolisafe/tree/bocchi) | https://hitori.is-cute.moe | Yes    |
 
-## Deployment
+## 🌠 Deployment
 You can find installation instructions in the [official repository](https://github.com/BobbyWibowo/lolisafe).
