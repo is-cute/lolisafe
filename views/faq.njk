@@ -28,7 +28,15 @@
     <h3 class="subtitle has-text-white-ter">What is {{ globals.name }}?</h3>
     <article class="message">
       <div class="message-body">
-        This is a fork of <a href="https://github.com/BobbyWibowo/lolisafe" target="_blank" rel="noopener">lolisafe</a>.<br>
+        This is a personal, self-hosted fork of <a href="https://github.com/BobbyWibowo/lolisafe" target="_blank" rel="noopener">lolisafe</a>.<br>
+      </div>
+    </article>
+
+    <h3 class="subtitle has-text-white-ter">Can I get an account?</h3>
+    <article class="message">
+      <div class="message-body">
+        Probably not. At minimum, you're not going to get an account unless I know you in some way.<br>
+        Don't try emailing me for one.
       </div>
     </article>
 
@@ -116,21 +124,21 @@
   <div class="container has-text-left">
     <h2 id="technical" class='title is-spaced'>Technical</h2>
 
-    <h3 class="subtitle has-text-white-ter">What are the allowed extensions here?</h3>
+    <h3 class="subtitle has-text-white-ter">What extensions are allowed here?</h3>
     <article class="message">
       <div class="message-body">
         {% if extensionsFilter.length -%}
           {%- if extensionsFilterMode === 'whitelist' -%}
-          We only support the following extensions:
+          You can only use the following extensions:
           {%- else -%}
-          We support any file extensions, except the following:
+          All file extensions are supported, except the following:
           {%- endif -%}<br>
           {% set comma = joiner(' ') -%}
           {%- for extension in extensionsFilter -%}
           {{ comma() }}<code>{{ extension }}</code>
           {%- endfor -%}
         {%- else -%}
-        We support any file extensions.
+        All file extensions are supported.
         {%- endif %}
       </div>
     </article>
@@ -180,7 +188,7 @@
     </article>
     {%- endif %}
 
-    <h3 class="subtitle has-text-white-ter">Are there any Desktop clients?</h3>
+    <h3 class="subtitle has-text-white-ter">Are there any desktop clients?</h3>
     <article class="message">
       <div class="message-body">
         If you use Windows, I recommend using <a href="https://github.com/ShareX/ShareX" target="_blank" rel="noopener">ShareX</a>.<br>
@@ -284,7 +292,7 @@
       <div class="message-body">
         <strong>Yes.</strong> In order to keep this site safe, visitors' IP addresses are recorded.<br>
         These are checked in real time to detect and punish abuse, such as DDoS attempts, scanners, and so on.<br>
-        Logs are also used to punish offenders.<br>
+        Logs may also be used to punish offenders.<br>
       </div>
     </article>
 
@@ -300,7 +308,7 @@
     {%- endif %}
 
     {% if globals.email -%}
-    <h3 class="subtitle has-text-white-ter">I still have more unanswered questions!</h3>
+    <h3 class="subtitle has-text-white-ter">I still have unanswered questions!</h3>
     <article class="message">
       <div class="message-body">
         Email me at <a href="mailto:{{ globals.email }}">{{ globals.email }}</a>.

@@ -34,7 +34,7 @@ module.exports = {
     Which one you use is ultimately up to you.
   */
   serveFilesWithNode: true,
-  domain: null,
+  domain: 'https://hitori.is-cute.moe',
 
   /*
     If you serve files with node, you can optionally choose to set Content-Disposition header
@@ -80,7 +80,7 @@ module.exports = {
   /*
     Port on which to run the server.
   */
-  port: 8008,
+  port: 8443,
 
   /*
     Pages to process for the frontend.
@@ -412,12 +412,7 @@ module.exports = {
     retentionPeriods: {
       // Defaults that also apply to non-registered users
       _: [
-        24, // 24 hours (1 day) -- first value is the group's default retention
-        1 / 60 * 15, // 15 minutes
-        1 / 60 * 30, // 30 minutes
-        1, // 1 hour
-        6, // 6 hours
-        12 // 12 hours
+        1 // 1 hour
       ],
       /*
         Inheritance is based on each group's 'values' in permissionController.js.
@@ -426,6 +421,21 @@ module.exports = {
         You may remove all the groups below to apply the defaults above for everyone.
       */
       user: [
+        24 * 3, // 72 hours (3 days)
+        1, // 1 hour
+        12, // 12 hours
+        24 * 1, // 24 hours (1 day)
+        24 * 2 // 48 hours (2 days)
+      ],
+      vip: [
+        24 * 7, // 168 hours (7 days)
+        1, // 1 hour
+        12, // 12 hours
+        24 * 1, // 24 hours (1 day)
+        24 * 2, // 48 hours (2 days)
+        24 * 3 // 72 hours (3 days)
+      ],
+      vvip: [
         0, // permanent -- group's default
         1, // 1 hour
         12, // 12 hours
@@ -433,13 +443,6 @@ module.exports = {
         24 * 2, // 48 hours (2 days)
         24 * 3, // 72 hours (3 days)
         24 * 7 // 168 hours (7 days)
-      ],
-      vip: [
-        0 // 720 hours (30 days) -- group's default
-      ],
-      vvip: [
-        null, // -- if null, use previous group's default as this group's default
-        0 // permanent
       ],
       moderator: [
         0 // -- group's default
