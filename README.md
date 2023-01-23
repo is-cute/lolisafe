@@ -9,6 +9,6 @@ A (cute) self-hosted fork of [lolisafe](https://github.com/BobbyWibowo/lolisafe)
 
 ## 🌠 Deployment
 > **Warning**  
-> This branch is intended to be used for [is-cute](https://github.com/is-cute). *You will need to make modifications for personal use.*
+> This branch is intended to be used by [is-cute](https://github.com/is-cute). *You will need to make modifications for personal use.*
 
 You can find installation instructions in the [official repository](https://github.com/BobbyWibowo/lolisafe).
