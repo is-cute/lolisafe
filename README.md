@@ -1,6 +1,6 @@
 # [hitori.is-cute.moe](https://hitori.is-cute.moe)
 
-A (cute) self-hosted fork of [lolisafe](https://github.com/BobbyWibowo/lolisafe), a fast file uploader written in Node.
+A (cute) personalized fork of [lolisafe](https://github.com/BobbyWibowo/lolisafe), a fast file uploader written in Node.
 
 [![hitori.is-cute.moe](https://hitori.is-cute.moe/k1XSTu.png)](https://hitori.is-cute.moe/)
 
