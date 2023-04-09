@@ -47,26 +47,26 @@
     "fresh": "~0.5.2",
     "fs-jetpack": "~5.1.0",
     "helmet": "~6.0.1",
-    "hyper-express": "~6.5.7",
+    "hyper-express": "~6.5.8",
     "jszip": "~3.10.1",
     "knex": "~2.4.2",
     "live-directory": "~2.3.2",
     "markdown-it": "~13.0.1",
     "node-fetch": "~2.6.9",
     "nunjucks": "~3.2.3",
-    "parse-duration": "~1.0.2",
+    "parse-duration": "~1.0.3",
     "randomstring": "~1.2.3",
     "range-parser": "~1.2.1",
     "rate-limiter-flexible": "~2.4.1",
     "search-query-parser": "~1.6.0",
     "sharp": "~0.31.3",
-    "systeminformation": "~5.17.10"
+    "systeminformation": "~5.17.12"
   },
   "devDependencies": {
     "@ronilaukkarinen/gulp-stylelint": "~14.0.9",
     "browserslist": "~4.21.5",
     "bulma": "~0.9.4",
-    "cssnano": "~5.1.14",
+    "cssnano": "~5.1.15",
     "eslint": "~8.34.0",
     "eslint-config-standard": "~17.0.0",
     "eslint-plugin-compat": "~4.0.2",
@@ -90,7 +90,7 @@
     "stylelint-config-standard-scss": "~6.1.0"
   },
   "volta": {
-    "node": "18.14.2",
+    "node": "18.15.0",
     "yarn": "1.22.19"
   }
 }
