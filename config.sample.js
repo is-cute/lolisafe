@@ -554,7 +554,7 @@ module.exports = {
     */
     fileIdentifierLength: {
       min: 4,
-      max: 12,
+      max: 24,
       default: 6,
       force: false
     },
