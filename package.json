@@ -10,7 +10,7 @@
     "url": "https://github.com/BobbyWibowo/lolisafe/issues"
   },
   "engines": {
-    "node": ">=14.21.1"
+    "node": ">=16.0.0"
   },
   "license": "MIT",
   "scripts": {
@@ -36,7 +36,7 @@
   "dependencies": {
     "abort-controller": "~3.0.0",
     "bcrypt": "~5.1.0",
-    "better-sqlite3": "~8.1.0",
+    "better-sqlite3": "~8.3.0",
     "blake3": "~2.1.7",
     "chokidar": "~3.5.3",
     "clamscan": "~2.1.2",
@@ -46,37 +46,37 @@
     "fluent-ffmpeg": "~2.1.2",
     "fresh": "~0.5.2",
     "fs-jetpack": "~5.1.0",
-    "helmet": "~6.0.1",
-    "hyper-express": "~6.5.8",
+    "helmet": "~6.1.5",
+    "hyper-express": "~6.5.9",
     "jszip": "~3.10.1",
     "knex": "~2.4.2",
     "live-directory": "~2.3.2",
     "markdown-it": "~13.0.1",
     "node-fetch": "~2.6.9",
-    "nunjucks": "~3.2.3",
+    "nunjucks": "~3.2.4",
     "parse-duration": "~1.0.3",
     "randomstring": "~1.2.3",
     "range-parser": "~1.2.1",
     "rate-limiter-flexible": "~2.4.1",
     "search-query-parser": "~1.6.0",
-    "sharp": "~0.31.3",
+    "sharp": "~0.32.0",
     "systeminformation": "~5.17.12"
   },
   "devDependencies": {
-    "@ronilaukkarinen/gulp-stylelint": "~14.0.9",
+    "@ronilaukkarinen/gulp-stylelint": "~14.1.1",
     "browserslist": "~4.21.5",
     "bulma": "~0.9.4",
-    "cssnano": "~5.1.15",
-    "eslint": "~8.34.0",
+    "cssnano": "~6.0.0",
+    "eslint": "~8.39.0",
     "eslint-config-standard": "~17.0.0",
-    "eslint-plugin-compat": "~4.0.2",
+    "eslint-plugin-compat": "~4.1.4",
     "eslint-plugin-import": "~2.27.5",
-    "eslint-plugin-n": "~15.6.1",
+    "eslint-plugin-n": "~15.7.0",
     "eslint-plugin-promise": "~6.1.1",
     "gulp": "~4.0.2",
     "gulp-buble": "~0.9.0",
     "gulp-cli": "~2.3.0",
-    "gulp-dart-sass": "~1.0.2",
+    "gulp-dart-sass": "~1.1.0",
     "gulp-eslint-new": "~1.7.2",
     "gulp-if": "~3.0.0",
     "gulp-nodemon": "~2.5.0",
@@ -84,13 +84,13 @@
     "gulp-replace": "~1.1.4",
     "gulp-sourcemaps": "~3.0.0",
     "gulp-terser": "~2.1.0",
-    "postcss": "~8.4.21",
-    "postcss-preset-env": "~8.0.1",
-    "stylelint": "~14.16.1",
-    "stylelint-config-standard-scss": "~6.1.0"
+    "postcss": "~8.4.23",
+    "postcss-preset-env": "~8.3.2",
+    "stylelint": "~15.5.0",
+    "stylelint-config-standard-scss": "~8.0.0"
   },
   "volta": {
-    "node": "18.15.0",
+    "node": "18.16.0",
     "yarn": "1.22.19"
   }
 }
