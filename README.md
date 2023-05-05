@@ -2,8 +2,6 @@
 
 A (cute) personalized fork of [lolisafe](https://github.com/BobbyWibowo/lolisafe), a fast file uploader written in Node.
 
-[![hitori.is-cute.moe](https://hitori.is-cute.moe/k1XSTu.png)](https://hitori.is-cute.moe/)
-
 > **Note**  
 > This branch is a modified version of the [source repository](https://github.com/BobbyWibowo/lolisafe) for lolisafe, intended for production.
 
