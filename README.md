@@ -6,6 +6,7 @@ A (cute) personalized fork of [lolisafe](https://github.com/BobbyWibowo/lolisafe
 > This branch is a modified version of the [source repository](https://github.com/BobbyWibowo/lolisafe) for lolisafe, intended for production.
 
 ## 🌠 Deployment
+
 > **Warning**  
 > This branch is intended to be used by [is-cute](https://github.com/is-cute). *You will need to make modifications for personal use.*
 
