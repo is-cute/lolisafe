@@ -411,7 +411,7 @@ self.actuallyUpload = async (req, res, data = {}) => {
         hashStream.once('error', _reject)
 
         // Ensure readStream will only be resumed later down the line by readStream.pipe()
-        readStream.pause()
+        // TODO: readStream.pause()
         readStream.on('data', data => {
           // .dispose() will destroy this internal component,
           // so use it as an indicator of whether the hashStream has been .dispose()'d
@@ -1809,7 +1809,9 @@ self.list = async (req, res) => {
   for (const file of result.files) {
     file.extname = utils.extname(file.name)
     if (utils.mayGenerateThumb(file.extname)) {
-      file.thumb = `thumbs/${file.name.slice(0, -file.extname.length)}.png`
+      let thumbext = '.png'
+      if (utils.isAnimatedThumb(file.extname)) thumbext = '.gif'
+      file.thumb = `thumbs/${file.name.slice(0, -file.extname.length)}${thumbext}`
     }
   }
 
